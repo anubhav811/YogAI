@@ -11,7 +11,7 @@
         "Good day"
       ],
       "responses": [
-        "Hey there, this is YogaAspire bot. tell me your symptoms, then click on start button and give access to your webcam "  
+        "Hey there, this is YogaAI bot. tell me your symptoms, then click on start button and give access to your webcam "
       ]
     },
     {
@@ -22,7 +22,6 @@
         "i suffer from parkinson disease",
         "i am patient of low blood pressure",
         "i have insomnia"
-        
       ],
       "responses": [
         "it is suggested to do tadasana",
@@ -30,14 +29,15 @@
         "Tadasana should be beneficial"
       ]
     },
-  
     {
       "tag": "savasana",
-      "patterns": ["i have curved spine", 
-        "i have pain in my anke and the knees", 
+      "patterns": [
+        "i have curved spine",
+        "i have pain in my anke and the knees",
         "i feel tired always",
         "i have bad posture",
-        "i dont feel attentive"],
+        "i dont feel attentive"
+      ],
       "responses": [
         "it is suggested to do savasana",
         "You can try savasana",
@@ -46,11 +46,13 @@
     },
     {
       "tag": "vrikshasana",
-      "patterns": ["i have low stamina", 
-        "i suffer from indigestion", 
+      "patterns": [
+        "i have low stamina",
+        "i suffer from indigestion",
         "i have carpal tunnel",
         "i have a case of frozen shoulders",
-        "stressful life"],
+        "stressful life"
+      ],
       "responses": [
         "it is suggested to do vrikshasana",
         "You can try vrikshasana",
@@ -59,10 +61,18 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
     },
-
     {
       "tag": "funny",
       "patterns": [

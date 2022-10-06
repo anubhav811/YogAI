@@ -25,7 +25,6 @@
         "i suffer from parkinson disease",
         "i am patient of low blood pressure",
         "i have insomnia"
-        
       ],
       "responses": [
         "it is suggested to do tadasana",
@@ -33,14 +32,15 @@
         "Tadasana should be beneficial"
       ]
     },
-  
     {
       "tag": "Padmasana",
-      "patterns": ["i have curved spine", 
-        "i have pain in my anke and the knees", 
+      "patterns": [
+        "i have curved spine",
+        "i have pain in my anke and the knees",
         "i feel tired always",
         "i have bad posture",
-        "i dont feel attentive"],
+        "i dont feel attentive"
+      ],
       "responses": [
         "it is suggested to do Padmasana",
         "You can try Padmasana",
@@ -49,11 +49,13 @@
     },
     {
       "tag": "Virabhadrasana",
-      "patterns": ["i have low stamina", 
-        "i suffer from indigestion", 
+      "patterns": [
+        "i have low stamina",
+        "i suffer from indigestion",
         "i have carpal tunnel",
         "i have a case of frozen shoulders",
-        "stressful life"],
+        "stressful life"
+      ],
       "responses": [
         "it is suggested to do Virabhadrasana",
         "You can try Virabhadrasana",
@@ -62,10 +64,18 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
     },
-
     {
       "tag": "funny",
       "patterns": [

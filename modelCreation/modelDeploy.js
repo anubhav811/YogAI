@@ -68,7 +68,7 @@ function gotResult(error, results) {
       poseLabel = "Chair";
     }
   }
-  startTimer(thirtysecs, display);
+  //startTimer(thirtysecs, display);
   classifyPose();
 }
 
@@ -126,7 +126,7 @@ function startTimer(duration, display) {
 
     if (--timer < 0) {
       timer = duration;
-      classifyPose();
+      //classifyPose();
     }
   }, 1000);
 }

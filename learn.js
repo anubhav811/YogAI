@@ -127,7 +127,7 @@ function gotResult(error, results) {
         setTimeout(classifyPose, 100);
       }}}
   else{
-    console.log("whatwe really dont want")
+    console.log("..")
     setTimeout(classifyPose, 100);
 }}
 
@@ -167,7 +167,7 @@ function nextPose(){
     console.log("Well done, you have learnt all poses!");
     document.getElementById("finish").textContent = "Amazing!";
     document.getElementById("welldone").textContent = "All poses done.";
-    document.getElementById("sparkles").style.display = 'block';
+    document.getElementById("sparkles").style.display = 'none';
   }else{
     console.log("Well done, you all poses!");
     //var stars = document.getElementById("starsid");
@@ -180,7 +180,7 @@ function nextPose(){
     target = posesArray[poseCounter];
     document.getElementById("poseName").textContent = target;
     document.getElementById("welldone").textContent = "Well done, next pose!";
-    document.getElementById("sparkles").style.display = 'block';
+    document.getElementById("sparkles").style.display = 'none';
     document.getElementById("poseImg").src = imgArray[poseCounter].src;
     console.log("classifying again");
     timeLeft = 10;

@@ -39,7 +39,7 @@ function setup() {
     debug: true
   }
   yogi = ml5.neuralNetwork(options);
-  yogi.loadData("basic4.json", dataReady);
+  // yogi.loadData("basic4.json", dataReady);
 }
 
 function dataReady(){

@@ -6,8 +6,8 @@ canvas {
 
 html, body {
   margin: 25px;
-  background-color: #A293FF;
-  font-family: 'Poppins', sans-serif;
+  background-color: #FFEFD6;
+  font-family: 'Lora', sans-serif;
   font-size: 14px;
   overflow: hidden; 
 }
@@ -34,7 +34,7 @@ h1 {
 
   letter-spacing: -0.05em;
 
-  color: #FFFFFF;
+  color: #383838;
 }
 
 h2{
@@ -99,6 +99,19 @@ footer {
   font-size: 20px;
 }
 
+.button {
+  position: absolute;
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  /* margin: 4px 20px; */
+}
+.button5 {border-radius: 12px;}
 
 indexbutton{
   position: absolute;

@@ -163,7 +163,7 @@ function nextPose() {
     console.log("Well done !!");
     document.getElementById("finish").textContent = "Amazing!";
     document.getElementById("welldone").textContent = "Pose Done.";
-    document.getElementById("sparkles").style.display = "block";
+    document.getElementById("sparkles").style.display = "none";
   } else {
     console.log("Well done, you all poses!");
     //var stars = document.getElementById("starsid");
@@ -176,7 +176,7 @@ function nextPose() {
     target = posesArray[poseCounter];
     document.getElementById("poseName").textContent = target;
     document.getElementById("welldone").textContent = "Well done!";
-    document.getElementById("sparkles").style.display = "block";
+    document.getElementById("sparkles").style.display = "none";
     document.getElementById("poseImg").src = imgArray[poseCounter].src;
     console.log("classifying again");
     timeLeft = 10;

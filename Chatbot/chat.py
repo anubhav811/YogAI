@@ -14,7 +14,7 @@ with open('intents.json', 'r') as json_data:
 
 FILE = "data.pth"
 data = torch.load(FILE)
-final=[]
+final = []
 poses = []
 
 input_size = data["input_size"]
@@ -28,9 +28,9 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Yogaspire bot"
+bot_name = "YogAI bot"
 print("Let's chat! (type 'quit' to exit)")
-print("Version 2.0")
+
 while True:
     sentence = input("You: ")
     if sentence == "quit":
@@ -39,8 +39,8 @@ while True:
             if i not in final and i != ("greeting" or "thanks"):
                 final.append(i)
         print(final)
-        with open('poses.json','w') as jsonfile:
-            json.dump(final,jsonfile)
+        with open('poses.json', 'w') as jsonfile:
+            json.dump(final, jsonfile)
         break
 
     sentence = tokenize(sentence)

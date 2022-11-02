@@ -9,7 +9,7 @@ const getPoses = asyncHandler(async (req, res) => {
   });
 });
 
-// @desc set goal
+// @desc set yoga
 // @route POST api/Poses
 // @access Private
 const setPoses = asyncHandler(async (req, res) => {
@@ -19,23 +19,22 @@ const setPoses = asyncHandler(async (req, res) => {
   }
   console.log(req.body);
 
-  res.send({ message: "Set Goal" });
 });
-// @desc update goal with id
+// @desc update yoga with id
 // @route PUT api/Poses/:id
 // @access Private
-const updateGoal = asynchHandler(async (req, res) => {
+const updateyoga = asynchHandler(async (req, res) => {
   res.send({
-    message: `Update Goal for id=${req.params.id}`,
+    message: `Update yoga for id=${req.params.id}`,
   });
 });
 
-// @desc delete goal with id
+// @desc delete yoga with id
 // @route PUT api/Poses/:id
 // @access Private
-const deleteGoal = asyncHandler(async (req, res) => {
+const deleteyoga = asyncHandler(async (req, res) => {
   res.send({
-    message: `Delete Goal for id=${req.params.id}`,
+    message: `Delete yoga for id=${req.params.id}`,
   });
 });
-module.exports = { getPoses, setPoses, updateGoal, deleteGoal };
+module.exports = { getPoses, setPoses, updateyoga, deleteyoga };

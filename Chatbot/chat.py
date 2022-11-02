@@ -28,7 +28,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "YogAI bot"
+bot_name = "Yoga bot"
 print("Let's chat! (type 'quit' to exit)")
 
 while True:
